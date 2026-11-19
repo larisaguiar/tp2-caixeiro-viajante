@@ -1,0 +1,42 @@
+=== Rodando twice_around ===
+synth_n10_s101,10,twice_around,OK,3685,0,0.0042,0.0000,0.0029,0.0000,0.0000,0,0,6252
+
+real	0m0.004s
+user	0m0.002s
+sys	0m0.001s
+=== Rodando christofides ===
+synth_n10_s101,10,christofides,OK,3565,0,0.0115,0.0000,0.0032,0.0024,0.0000,0,0,6252
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+=== Rodando bnb_cold ===
+synth_n10_s101,10,bnb_cold,OK,3376,5118,0.4236,0.0005,0.0000,0.0000,0.4153,10828,19825,6252
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+=== Rodando bnb_nn ===
+synth_n10_s101,10,bnb_nn,OK,3376,4273,0.4517,0.0017,0.0000,0.0000,0.4421,10828,19825,6252
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+=== Rodando bnb_hull ===
+synth_n10_s101,10,bnb_hull,OK,3376,3376,0.4116,0.0037,0.0000,0.0000,0.4004,10293,19209,6252
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+=== Rodando bnb_twice ===
+synth_n10_s101,10,bnb_twice,OK,3376,3685,0.4294,0.0042,0.0032,0.0000,0.4180,10812,19825,6176
+
+real	0m0.004s
+user	0m0.002s
+sys	0m0.000s
+=== Rodando bnb_christofides ===
+synth_n10_s101,10,bnb_christofides,OK,3376,3565,0.5828,0.0090,0.0034,0.0027,0.5647,10803,19825,6252
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
