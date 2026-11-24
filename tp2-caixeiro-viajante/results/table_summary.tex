@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Desempenho comparativo detalhado incluindo Twice-around-the-tree e Christofides.}
+\label{tab:resultados_instancias}
+\begin{tabular}{lccccccccr}
+\toprule
+Instância & N & Aspect Ratio & Custo Ótimo & Tempo Cold (s) & Tempo Twice (s) & Tempo Chris (s) & Nós Exp. (Twice) & Nós Exp. (Chris) & Status \\
+\midrule
+\texttt{berlin52.tsp} & 52 & 1.47 & NA & 118.42 & 12.68 & 12.68 & 25.537 & 25.537 & Estouro (OOM/Timeout) \\
+\texttt{st70.tsp} & 70 & 1.06 & NA & 162.04 & 16.32 & 16.49 & 17.813 & 17.813 & Estouro (OOM/Timeout) \\
+\texttt{synth_n10_s101.tsp} & 10 & 1.15 & 3376.47 & 1.13 & 0.26 & 0.14 & 39.663 & 17.464 & Ótimo \\
+\texttt{synth_n14_s102.tsp} & 14 & 1.43 & NA & 42.54 & 8.33 & 14.36 & 291.412 & 634.528 & Estouro (OOM/Timeout) \\
+\texttt{synth_n18_s103.tsp} & 18 & 1.03 & 3427.91 & 7.72 & 1.55 & 1.41 & 157.384 & 155.700 & Ótimo \\
+\texttt{synth_n22_s104.tsp} & 22 & 1.10 & 3681.86 & 20.63 & 4.67 & 2.01 & 446.158 & 98.635 & Ótimo \\
+\texttt{synth_n25_s105.tsp} & 25 & 1.02 & NA & 49.02 & 7.54 & 7.92 & 111.034 & 113.978 & Estouro (OOM/Timeout) \\
+\texttt{synth_n28_s106.tsp} & 28 & 1.00 & NA & 56.40 & 7.78 & 7.91 & 63.356 & 64.135 & Estouro (OOM/Timeout) \\
+\texttt{synth_n32_s107.tsp} & 32 & 1.10 & NA & 64.90 & 8.71 & 8.92 & 64.246 & 64.246 & Estouro (OOM/Timeout) \\
+\texttt{synth_n35_s108.tsp} & 35 & 1.03 & NA & 76.37 & 9.38 & 9.97 & 45.733 & 46.912 & Estouro (OOM/Timeout) \\
+\texttt{synth_n38_s109.tsp} & 38 & 1.02 & NA & 85.72 & 10.12 & 10.39 & 39.800 & 39.800 & Estouro (OOM/Timeout) \\
+\texttt{synth_n40_s110.tsp} & 40 & 1.04 & NA & 92.31 & 10.77 & 10.52 & 35.905 & 35.905 & Estouro (OOM/Timeout) \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,13 @@
+instance,cluster,cluster_no_nodes
+synth_n10_s101.tsp,1,3
+synth_n14_s102.tsp,1,4
+synth_n18_s103.tsp,1,3
+synth_n22_s104.tsp,3,1
+synth_n25_s105.tsp,3,1
+synth_n28_s106.tsp,4,2
+synth_n32_s107.tsp,4,2
+synth_n35_s108.tsp,4,2
+synth_n38_s109.tsp,4,2
+synth_n40_s110.tsp,3,1
+berlin52.tsp,2,4
+st70.tsp,2,2
