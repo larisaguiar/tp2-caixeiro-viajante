@@ -1,0 +1,19 @@
+% Gerado automaticamente por scripts/analyze_and_report.py
+\begin{table}[htbp]
+\centering
+\caption{Resumo experimental de custo, tempo, memória e busca no TSP.}
+\label{tab:resumo_tsp}
+\begin{tabular}{llrrrrrr}
+\hline
+Algoritmo & Warm-Start & Custo Méd. & Tempo (s) & RAM (MB) & Nós Exp. & Heap Máx. & Timeouts \\
+\hline
+branch\_and\_bound & christofides & 3730.81 & 375.6166 & 96.28 & 619322.3 & 285818.5 & 5 \\
+branch\_and\_bound & cold\_start & 5339.37 & 344.3088 & 100.84 & 641125.0 & 298951.7 & 5 \\
+branch\_and\_bound & convex\_hull & 3644.85 & 347.0085 & 69.03 & 500030.4 & 202175.9 & 4 \\
+branch\_and\_bound & nearest\_neighbor & 3759.41 & 347.3195 & 99.97 & 654734.2 & 295872.7 & 5 \\
+branch\_and\_bound & twice\_around\_tree & 3906.13 & 344.3570 & 99.99 & 653217.5 & 296328.2 & 5 \\
+christofides & none & 3981.20 & 0.0183 & 0.11 & 0.0 & 0.0 & 0 \\
+twice\_around\_tree & none & 4591.02 & 0.0013 & 0.06 & 0.0 & 0.0 & 0 \\
+\hline
+\end{tabular}
+\end{table}

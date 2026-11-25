@@ -1,0 +1,21 @@
+% Gerado automaticamente por scripts/analyze_and_report.py
+\begin{table}[htbp]
+\centering
+\caption{Ajustes empíricos de tempo e memória em função de $N$.}
+\label{tab:ajuste_complexidade}
+\begin{tabular}{lllr}
+\hline
+Algoritmo & Métrica & Modelo Ajustado & $R^2$ \\
+\hline
+twice\_around\_tree & Tempo Total & $1.49e-04 N^{0.62}$ & 0.5116 \\
+twice\_around\_tree & Memória Pico & $2.45e-04 N^{1.52}$ & 0.9835 \\
+christofides & Tempo Total & $4.69e-05 N^{1.63}$ & 0.9136 \\
+christofides & Memória Pico & $1.13e-03 N^{1.29}$ & 0.9285 \\
+B&B (christofides) & Tempo Exato & $7.91e-01 e^{0.18N}$ & -0.3736 \\
+B&B (cold\_start) & Tempo Exato & $8.36e-01 e^{0.18N}$ & -0.3737 \\
+B&B (convex\_hull) & Tempo Exato & $1.23e+00 e^{0.14N}$ & -0.3237 \\
+B&B (nearest\_neighbor) & Tempo Exato & $9.87e-01 e^{0.17N}$ & -0.3637 \\
+B&B (twice\_around\_tree) & Tempo Exato & $8.37e-01 e^{0.18N}$ & -0.3720 \\
+\hline
+\end{tabular}
+\end{table}
