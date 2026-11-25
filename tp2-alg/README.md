@@ -14,7 +14,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-No Windows (Prompt de Comando), ative o ambiente com:
+No Windows, ative o ambiente com:
 
 ```bat
 .venv\Scripts\activate
@@ -56,4 +56,3 @@ LaTeX e gráficos:
 python scripts/reports.py
 ```
 
-O relatório depende dos arquivos de resultados gerados pelos benchmarks.
